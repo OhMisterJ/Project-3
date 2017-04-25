@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Calculator App</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body>
+        <div class="calculator">
+            <input id="screen" class="screen" value="0"/>
+        <div class="buttons">
+        <!--Use "id" for operations and other non-numerical buttons. Use "class" for the digits and number values. -->
+            <button id="clear" value="">C</button>
+            <button id="backspace" value="-">⬅</button>
+            <button id="sign" value="-+">±</button>
+            <button id="divide" value="/">÷</button>
+            <button class="digit" value="7">7</button>
+            <button class="digit" value="8">8</button>
+            <button class="digit" value="9">9</button>
+            <button id="multiply" value="*">×</button>
+            <button class="digit" value="4">4</button>
+            <button class="digit" value="5">5</button>
+            <button class="digit" value="6">6</button>
+            <button id="minus" value="-">-</button>
+            <button class="digit" value="1">1</button>
+            <button class="digit" value="2">2</button>
+            <button class="digit" value="3">3</button>
+            <button id="plus" value="+">+</button>
+            <button class="digit" value="0">0</button>
+            <button class="digit" value=".">.</button>
+            <button id="equal" value="=">=</button>
+        </div>
+    </div>
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
